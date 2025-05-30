@@ -26,8 +26,38 @@ I need to find the following for this application to work:
 
 ## Timeline
 
-I want to have a **minimum viable product** (CLI tool) of this app **within three days**
+I want to have a **minimum viable product** (CLI tool) of this app **within a week**
 
-- [ ] Day One: find firm names and locations in Downtown Chicago using a Google Maps API
-- [ ] Day Two: Figure out sentiment analysis of firms
-- [ ] Day Three: Figure out how to get recruiter contact info
+- [ ] Day One: Set up python project
+    - venv/
+        - Create
+    - update_py_dependencies.py
+        - Create based on system
+    - requirements.txt
+        - Create
+    - config.json (private data)
+        - Create
+    - .gitignore
+        - Create, add private info
+    - .pre-commit-config.yaml
+        - black formatter
+            - run_black.py
+        - isort import orderer
+            - run_isort.py
+        - flake8 linter
+            - run_flake8.py
+        - pytest
+            - run_pytest.py
+        - pytest-cov
+            - run_pytest-cov.py
+        - trailing whitespace
+            - fix_trailing_whitespace.py
+        - end of file fixer (file ends with one newline)
+            - fix_file_end.py
+        - check merge conflict
+
+        - setup.py - handles all of this
+
+- [ ] Day Two: Find firm names and locations in Downtown Chicago using a Google Maps API
+- [ ] Day Three: Figure out sentiment analysis of firms
+- [ ] Day Four: Figure out how to get recruiter contact info
