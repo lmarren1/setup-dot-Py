@@ -1,3 +1,6 @@
 # Python Virtual Environment
 venv/
 update_venv.py
+
+# Private Data
+config.json
