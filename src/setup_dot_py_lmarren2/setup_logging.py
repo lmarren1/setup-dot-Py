@@ -55,7 +55,7 @@ def configure_logging(log_file: str = LOG_FILE, log_format: str = LOG_FORMAT) ->
                     filemode="w",
                     format=log_format,
                     level=logging.DEBUG,
-                    force=True,
+                    force=True, 
                     encoding="utf-8")
         logging.info("Successfully configured logging.")
     except Exception as e:
