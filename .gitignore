@@ -4,3 +4,6 @@ update_venv.py
 
 # Private Data
 config.json
+
+# Python cache
+__pychache__/
