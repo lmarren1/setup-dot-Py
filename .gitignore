@@ -6,4 +6,4 @@ update_venv.py
 config.json
 
 # Python cache
-__pychache__/
+__pycache__/
